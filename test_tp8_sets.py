@@ -30,3 +30,7 @@ class SetsTest(unittest.TestCase):
             with self.subTest(f"variation #{variant}", iputs="all drinks", results="drinks classified"):
                 error_msg = f"Expected {result} for {item}, but got something else instead."
                 self.assertEqual(check_drinks(item[0], item[1]), (result), msg=error_msg)
+
+
+if __name__ == '__main__':
+    unittest.main()
