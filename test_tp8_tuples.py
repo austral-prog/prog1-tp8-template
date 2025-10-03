@@ -93,3 +93,7 @@ class TisburyTreasureTest(unittest.TestCase):
                                  f'{expected} for the record.')
 
                 self.assertEqual(actual_result, expected, msg=error_message)
+
+
+if __name__ == '__main__':
+    unittest.main()
